@@ -57,6 +57,33 @@ yarn-error.log*
 dist/
 
 # ==========================================
+# 🐹 Go (Golang)
+# ==========================================
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go build command (if you named your binary something else, add it here)
+/GoGin/joke-api
+/GoGin/main
+
+# Project-local development variables
+.env
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Dependency directories (only if you use `go mod vendor`)
+vendor/
+
+# ==========================================
 # 💻 General / Editors
 # ==========================================
 .vscode/
