@@ -18,7 +18,6 @@ public class ClientConfig {
                 .defaultHeader("Accept", "application/json")
                 .build();
 
-        // Create a proxy factory based on the RestClient
         HttpServiceProxyFactory factory = HttpServiceProxyFactory
                 .builderFor(RestClientAdapter.create(restClient))
                 .build();

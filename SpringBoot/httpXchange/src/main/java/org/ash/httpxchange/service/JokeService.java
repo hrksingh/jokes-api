@@ -16,7 +16,6 @@ public class JokeService {
     }
 
     public List<JokeRecord> getJokes() {
-        // Simple, clean, and abstracted
         return jokeClient.fetchJokes().results();
     }
 }
